@@ -36,12 +36,12 @@
         font-size: 40px;
     }
 
-    .landing-content-container .social-networks-container {
+    .landing-content-container .social-networks-container,.contact-container .social-networks-container {
         flex-direction: column;
         gap: 12px;
     }
 
-    .landing-content-container .social-networks-container .social-network-wrap a button {
+    .landing-content-container .social-networks-container .social-network-wrap a button,.contact-container .social-networks-container .social-network-wrap a button {
         width: 100%;
     }
 
@@ -54,7 +54,7 @@
     /* index responsive end */
 
     /* project resposive start */
-    .projects-grid{
+    .projects-grid,.blog-grid{
         grid-template-columns: 1fr;
     }
 }
