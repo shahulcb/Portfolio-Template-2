@@ -1,0 +1,74 @@
+@media (max-width: 809px) {
+    .container {
+        width: 245px;
+    }
+
+    .side-navbar-container {
+        display: none;
+        animation: side-navbar-responsive .2s ease-in;
+        animation-iteration-count: 1;
+    }
+
+    .navbar {
+        display: flex;
+    }
+
+    .contact-info h1{
+        font-size: 36px;
+    }
+
+    .contact-info a button{
+        width: 100%;
+    }
+
+    /* index responsive start */
+    .landing-content-container {
+        padding-top: 120px;
+    }
+
+    .landing-content-container .status-wrap {
+        display: none;
+    }
+
+    .landing-content-container .welcome-msg-wrap .welcome-msg-text,
+    .landing-content-container .jobtitle-wrap .jobtitle-text span,
+    .landing-content-container .jobtitle-wrap .jobtitle-text {
+        font-size: 40px;
+    }
+
+    .landing-content-container .social-networks-container {
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    .landing-content-container .social-networks-container .social-network-wrap a button {
+        width: 100%;
+    }
+
+    .search-feed-container .search button{
+        width: 40px;
+        height: 40px;
+        font-size: 15px;
+    }
+
+    /* index responsive end */
+
+    /* project resposive start */
+    .projects-grid{
+        grid-template-columns: 1fr;
+    }
+}
+
+
+@keyframes side-navbar-responsive {
+    0% {
+        transform: translate(-100%, -50%);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translate(40%, -50%);
+        opacity: 1;
+    }
+
+}

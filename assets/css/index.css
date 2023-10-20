@@ -1,0 +1,110 @@
+.landing-content-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #ffffff;
+    padding-top: 100px;
+
+}
+
+.landing-content-container .status-wrap {
+    margin-bottom: 30px;
+    display: flex;
+    gap: 10px;
+}
+
+.landing-content-container .status-wrap .status-text {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 100%;
+}
+
+.landing-content-container .jobtitle-wrap {
+    margin-bottom: 30px;
+}
+
+.landing-content-container .welcome-msg-wrap .welcome-msg-text,
+.landing-content-container .jobtitle-wrap .jobtitle-text {
+    font-size: 60px;
+    font-weight: 700;
+    letter-spacing: -4px;
+    line-height: 120%;
+}
+
+.landing-content-container .jobtitle-wrap .jobtitle-text span {
+    color: #ffffff;
+}
+
+.landing-content-container .jobtitle-wrap .jobtitle-text {
+    color: #6f6f6f;
+}
+
+.landing-content-container .social-networks-container {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 30px;
+}
+
+.landing-content-container .social-networks-container .social-network-wrap a button {
+    text-decoration: none;
+    background-color: #343639;
+    width: 140px;
+    height: 50px;
+    border-radius: 40px;
+    border: none;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 100%;
+    cursor: pointer;
+    transition: .3s ease-in-out transform;
+    color: #ffffff;
+
+}
+
+.landing-content-container .social-networks-container .social-network-wrap a button i {
+    margin-right: 15px;
+}
+
+.landing-content-container .social-networks-container .social-network-wrap a button:hover {
+    transform: translateY(-8px);
+}
+
+
+
+.landing-content-container .about-wrap p {
+    color: #7C7C7C;
+    line-height: 130%;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.search-feed-container {
+    display: flex;
+    justify-content: space-between;
+    color: #ffffff;
+    padding-top: 10px;
+    align-items: center;
+}
+
+.search-feed-container .feed h4 {
+    font-weight: 500;
+    line-height: 100%;
+    font-size: 16px;
+}
+
+
+.search-feed-container .search button {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: none;
+    font-size: 17px;
+    cursor: pointer;
+    background-color: #343639;
+    color: #ffffff;
+    transition: all .2s ease-in-out;
+}
+
+.search-feed-container .search button:hover {
+    transform: translateY(-5px);
+}
